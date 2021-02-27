@@ -9,6 +9,7 @@ D’Amelio B. Pietro, Covas Rita, Ferreira C. André, Fortuna Rita, Silva R. Lil
 
 
 > sessionInfo()
+
 R version 3.5.3 (2019-03-11)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 Running under: Windows 10 x64 (build 19042)
