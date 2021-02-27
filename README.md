@@ -13,7 +13,7 @@ D’Amelio B. Pietro, Covas Rita, Ferreira C. André, Fortuna Rita, Silva R. Lil
 
 
 
-# these info are common to all the scripts
+ These info are common to all the scripts
 
 > sessionInfo()
 R version 3.5.3 (2019-03-11)
