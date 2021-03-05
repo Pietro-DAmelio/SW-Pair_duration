@@ -45,7 +45,7 @@ dat_subset<-subset(dat_subset, predation=="protected")
 
 # after selection of colony protection "dat_subset" follows a common pathway
 
-#remove NAs, duplicates
+#remove duplicates
 dat_subset<- unique(dat_subset)
 
 #select only complete cases
@@ -287,7 +287,7 @@ loo_compare(mod1,mod2)
 
 
 
-#### main variable plot - PROT LONG####
+#### main variable plot - PROT - LONG. ####
 
 #extract Plotting values
 marg<-marginal_effects(mod1, resolution=1000)
@@ -328,7 +328,7 @@ ggsave("breeding_offset_exp_prot1_v2.eps", device=cairo_ps, width = 8, height = 
 
 
 
-####Forest Plot - PROT LONG ####
+####Forest Plot - PROT - LONG. ####
 
 plot_model(mod1,type="std2", vline.color = "#D55E00", line.size = .35, 
            sort.est = TRUE, transform = NULL, show.values = TRUE,
@@ -357,7 +357,7 @@ plot_model(mod1,type="std2", vline.color = "#D55E00", line.size = .35,
 
 #Load database
 
-dat3<- read.csv("YOUR_DIRECTORY/CrossSectional_dataset_seasonal.csv")
+dat3<- read.csv("YOUR_DIRECTORY/CrossSectional_dataset_season.csv")
 
 
 
@@ -411,7 +411,7 @@ dat3_season$Col_Size.z<- scale(dat3_season$Col_Size)
 
 
 
-#### FINAL MODEL NATURAL CROSS ####
+#### FINAL MODEL NATURAL - CROSS. ####
 mod1 = brms::brm(days_to_last_brood ~ breeding_exp_pair_days_season.z+
                    breeding_exp_Mate_days_season.z+
                    Min_Age_Mate_season_days.z+
@@ -463,7 +463,7 @@ mod2<-add_loo(mod2)
 loo_compare(mod1,mod2)
 #mod1 much better
 
-#### main variable plot - NAT CROSS####
+#### main variable plot - NAT - CROSS. ####
 
 #extract Plotting values
 marg<-marginal_effects(mod1, resolution=1000)
@@ -508,7 +508,7 @@ ggsave("breeding_offset_exp_nat1_3y_v1.eps", device=cairo_ps, width = 8, height 
 
 
 
-####Forest Plot - NAT CROSS ####
+####Forest Plot - NAT. - CROSS. ####
 
 plot_model(mod1,type="std2", vline.color = "#007373", line.size = .35, 
            sort.est = TRUE, transform = NULL, show.values = TRUE,
@@ -562,6 +562,8 @@ mod1 = brms::brm(days_to_last_brood ~ breeding_exp_pair_days_season.z+
 mod1<-add_loo(mod1)
 #Found 42 observations with a pareto_k > 0.7 in model 'mod1'
 
+plot(mod1)
+
 pp_check(mod1)
 #good
 
@@ -597,7 +599,7 @@ loo_compare(mod1, mod2)
 
 
 
-#### main variable plot - PROT CROSS####
+#### main variable plot - PROT - CROSS. ####
 
 #extract Plotting values
 marg<-marginal_effects(mod1, resolution=1000)
@@ -645,7 +647,7 @@ ggsave("breeding_offset_exp_prot1_3y_v1.eps", device=cairo_ps, width = 8, height
 
 
 
-####Forest Plot - PROT CROSS ####
+####Forest Plot - PROT. - CROSS. ####
 
 plot_model(mod1,type="std2", vline.color = "#D55E00", line.size = .35, 
            sort.est = TRUE, transform = NULL, show.values = TRUE,
