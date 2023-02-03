@@ -72,19 +72,34 @@ DATA-SPECIFIC INFORMATION FOR: longitudinal_dataset.csv
 2. Number of cases/rows: 13968 rows
 
 3. Variable List: 
+	
 Note that a specific selection of the variables for each analysis is made at the beginning of each script (see scripts "data handling" section), so the length and structure of each analysis differs accordingly.
+	
 One row per egg. The format is 'Column name - variable name as in the manuscript (if present) - description of the variable'.
 
-BreederMom - Mother ID - ID of the female that laid each egg (modified from the raw dataset)
-BreederDad - Father ID - ID of the male that fathered the clutch (modified from the raw dataset)
-ColSize - Colony size - Number of birds captured in that colony in previous winter
-Nest - Nest ID - ID of the Nest from which that egg belongs to
-colony - Colony ID - ID of the colony where the female was breeding
+	
 season - Season - breeding season during which the clutch was laid
+	
+BreederMom - Mother ID - ID of the female that laid each egg (modified from the raw dataset)
+	
+BreederDad - Father ID - ID of the male that fathered the clutch (modified from the raw dataset)
+	
+ColSize - Colony size - Number of birds captured in that colony in previous winter
+	
+Nest - Nest ID - ID of the Nest from which that egg belongs to
+	
+colony - Colony ID - ID of the colony where the female was breeding
+	
+
+	
 Laying_date- When the first egg was layed
+	
 Egg_num-  ID of the clutch within the clutch
+	
 Ring- ID of the chick (modified from the raw dataset)
 
+	
+	
 4. Missing data codes: NA
 
 5. Specialized formats or other abbreviations used:
