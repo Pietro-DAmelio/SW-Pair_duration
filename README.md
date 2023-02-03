@@ -36,7 +36,7 @@ GENERAL INFORMATION
 		Address: Campus Agrário de Vairão, 4485–661 Vairão, Portugal
 		Email: rita.covas@cibio.up.pt
 
-3. Date of data collection (single date, range, approximate date):   from seasons 2011/2012 to 2018/2019
+3. Date of data collection (single date, range, approximate date):   from seasons 2008/2009 to 2018/2019
 
 4. Geographic location of data collection: Benfontein Nature Reserve, Northern Cape Province, South Africa (28°520 S, 24°500 E)
 
@@ -69,7 +69,7 @@ DATA-SPECIFIC INFORMATION FOR: longitudinal_dataset.csv
   
 1. Number of variables: 72
 
-2. Number of cases/rows: 13968 rows
+2. Number of cases/rows: 15660 rows
 
 3. Variable List: 
 	
@@ -78,29 +78,53 @@ Note that a specific selection of the variables for each analysis is made at the
 One row per egg. The format is 'Column name - variable name as in the manuscript (if present) - description of the variable'.
 
 	
-season - Season - breeding season during which the clutch was laid
+Season - Season - breeding season during which the clutch was laid
+	
+Colony - Colony ID - ID of the colony where the egg was layed
+	
+Nest - Nest ID - ID of the nest where the egg was layed
+	
+Laying_date - When the first egg of the clutch was layed
+	
+Egg_num -  ID of the egg within the clutch
+
+unique_ID - merging the info of the columns "Colony", "Nest", "Laying_date" and, "Egg_num" we can create a unique identifier for each row
+	
+Fate - What happened to each egg/chick
+	
+Ring- ID of the chick (modified from the raw dataset)
+	
+ColNestLaying - unique identifier for each cluch
 	
 BreederMom - Mother ID - ID of the female that laid each egg (modified from the raw dataset)
 	
-BreederDad - Father ID - ID of the male that fathered the clutch (modified from the raw dataset)
+BreederDad - Father ID - ID of the male that fathered the clutch (modified from the raw dataset) - see suplementary material for the assignment of extra pair chicks
+	
+predation - Treatment ("natural", "protected") - whether at the moment of laying and during rearing the colony was protected from nest predation from snakes or not
+	
+double_protection_state - whether the colony was protected for the full season or only for part of it
+	
+season_of_protection - For how many consecutive seasons was the colony protected
+	
+Mom_MinAge - Female Age - Minimum age of the female in days at the moment of laying
+	
+Dad_MinAge - Male Age - Minimum age of the male in days at the moment of laying
+	
+Mom_MinAge_Seasons - Female Age - Minimum age of the female in number of seasons at the moment of laying
+	
 	
 ColSize - Colony size - Number of birds captured in that colony in previous winter
 	
-Nest - Nest ID - ID of the Nest from which that egg belongs to
-	
-colony - Colony ID - ID of the colony where the female was breeding
-	
 
 	
-Laying_date- When the first egg was layed
-	
-Egg_num-  ID of the clutch within the clutch
-	
-Ring- ID of the chick (modified from the raw dataset)
 
+
+	
 	
 	
 4. Missing data codes: NA
+	
+	
 
 5. Specialized formats or other abbreviations used:
   
