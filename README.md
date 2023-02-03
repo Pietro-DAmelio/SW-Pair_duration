@@ -67,7 +67,7 @@ The data presented here are similar to the raw collected data, they are only sim
 
 DATA-SPECIFIC INFORMATION FOR: longitudinal_dataset.csv
   
-1. Number of variables: 72
+1. Number of variables: 68
 
 2. Number of cases/rows: 15660 rows
 
@@ -110,8 +110,33 @@ Mom_MinAge - Female Age - Minimum age of the female in days at the moment of lay
 	
 Dad_MinAge - Male Age - Minimum age of the male in days at the moment of laying
 	
-Mom_MinAge_Seasons - Female Age - Minimum age of the female in number of seasons at the moment of laying
+Mom_Min_Seasons - Female Age - Minimum age of the female in number of seasons at the moment of laying
+
+Dad_Min_Seasons - Male Age - Minimum age of the female in number of seasons at the moment of laying
 	
+Pair - Pair ID - Column merging "BreederMom" and "BreederDad" when both are present
+	
+total_pair_duration_nogaps - total pair duration - final pair duration (in season) of the given pair
+	
+breeding_exp_pair_nogaps - Pair duration - Duration (in season) of the pair at the moment of laying 
+	
+breeding_exp_pair_days - Pair duration - Duration (in days) of the pair at the moment of laying
+	
+breeding_exp_pair_days_season - Pair duration (used for breeding offset) - Duration (in days) of the pair at the moment of the last laying of the season
+	
+breeding_exp_pair_days_season_earliest - Pair duration (used for breeding onset) - Duration (in days) of the pair at the moment of the earliest laying of the season
+	
+pair_breeding_attempt_ordinal - the ordinal number of the breeding attempt of the pair (across seasons)
+	
+julian_date_first - breeding (laying) onset - number of days since season's first laying of the population 
+	
+julian_date_last - breeding (laying) offset -  difference in the number of days between the pair’s last laying date and the end of the season (the last laying of the population)
+	
+tarsus_mom - tarsus + intertarsal joint - measure in mm of the tarsus + intertarsal joint of the female (mother)
+
+tarsus_dad - tarsus + intertarsal joint - measure in mm of the tarsus + intertarsal joint of the male (father)
+
+N_of_life_partners_Mom - Number of partners - Total number of partners that the female had in her reproductive life
 	
 ColSize - Colony size - Number of birds captured in that colony in previous winter
 	
