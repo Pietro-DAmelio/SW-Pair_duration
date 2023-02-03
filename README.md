@@ -168,9 +168,49 @@ breeding_exp_Dad_days_season_earliest	- male breeding experience (used for breed
 	
 Dad_breeding_attempt_ordinal - the ordinal number of the breeding attempt of the male (across seasons) 
 	
-ColSize - Colony size - Number of birds captured in that colony in previous winter
+breeding_exp_Mom_tot - Total breeding experience (in seasons) the female
 	
+breeding_exp_Dad_tot - Total breeding experience (in seasons) the male
+	
+Min_Age_Mom_season_days - Female age (used for breeding offset) - Minimum age of the female in days at the moment of the last laying of the season
+	
+Min_Age_Mom_season_days_earliest - Female age (used for breeding onset) - Minimum age of the female in days at the moment of the first laying of the season 
+	
+Min_Age_Dad_season_days - male age (used for breeding offset) - Minimum age of the male in days at the moment of the last laying of the season
+	
+Min_Age_Dad_season_days_earliest - male age (used for breeding onset) - Minimum age of the male in days at the moment of the first laying of the season 
 
+Final_clutch_size - Cluch size - number of eggs layed in the nest
+	
+N_Clutches_Pair - Number of clutches - number of clutches produced by that specific pair in that given season
+	
+N_Clutches_Mom - number of clutches produced by that specific female in that given season 
+	
+N_Clutches_Dad - number of clutches produced by that specific male in that given season
+	
+egg_mass - Egg mass - The mass of the egg, in grams
+	
+N_hatched - Brood size - Number of chicks that hatched in the clutch (measure of intranest competition)
+	
+succ - binary score for successful fledging from laying 
+	
+hatch_succ - binary score for successful hatching from laying (hatchability)
+	
+succ_from_hatch - fledging success/nestling survival - binary score for successful fledging from hatching
+	
+fledging_mass - fledging mass - mass of the chick, in grams, at day 17
+	
+wing_chick - length of the wing in mm
+	
+ringer - who ringed and measured the chick
+	
+Fate_clutch - fate of the clutch to be used in the relaying analysis (if any chick fledged --> "successful", if the last alive of the clutch died as chicks --> "failed_chicks", if all failed as eggs --> "failed_eggs")
+	
+Relaying_int - relaying interval - Number of days between 2 breeding attempts
+	
+ColSize - Colony size - Number of birds captured in that colony at the end of the winter
+	
+Group_Size - Group size - number of birds contributing to raising that specific clutch (see methods and supporting information) for how it's calculated
 	
 
 
