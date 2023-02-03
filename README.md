@@ -138,6 +138,36 @@ tarsus_dad - tarsus + intertarsal joint - measure in mm of the tarsus + intertar
 
 N_of_life_partners_Mom - Number of partners - Total number of partners that the female had in her reproductive life
 	
+N_of_life_partners_Dad - Number of partners - Total number of partners that the male had in his reproductive life
+	
+tot_fitness - number of fledglings (chicks) - number of fledglings produced by that specific pair in that given season
+	
+N_EPP_chicks - number of extra pair paternity fledglings produced by that specific pair in that given season 
+	
+N_eggs_season - Number of eggs - number of eggs produced by that specific pair in that given season
+
+breeding_exp_Mom_nogaps - Female breeding experience - Breeding experience (in season) of the female at the moment of laying 
+
+breeding_exp_Mom_days - Female breeding experience - Breeding experience (in days) of the female at the moment of laying
+	
+breeding_exp_Mom_days_season - Female breeding experience (used for breeding offset) - Duration (in days) of the female breeding experience at the moment of the last laying of the season
+	
+breeding_exp_Mom_days_season_earliest	- Female breeding experience (used for breeding onset) - Duration (in days) of the female breeding experience at the moment of the first laying of the season
+	
+Mom_breeding_attempt_ordinal  - the ordinal number of the breeding attempt of the female (across seasons)
+	
+Mom_breeding_attempt_ordinal_season - the ordinal number of the breeding attempt of the female (within each seasons)
+	
+breeding_exp_Dad_nogaps - male breeding experience - Breeding experience (in season) of the male at the moment of laying 
+
+breeding_exp_Dad_days - male breeding experience - Breeding experience (in days) of the male at the moment of laying
+	
+breeding_exp_Dad_days_season - male breeding experience (used for breeding offset) - Duration (in days) of the male breeding experience at the moment of the last laying of the season
+	
+breeding_exp_Dad_days_season_earliest	- male breeding experience (used for breeding onset) - Duration (in days) of the male breeding experience at the moment of the first laying of the season
+	
+Dad_breeding_attempt_ordinal - the ordinal number of the breeding attempt of the male (across seasons) 
+	
 ColSize - Colony size - Number of birds captured in that colony in previous winter
 	
 
