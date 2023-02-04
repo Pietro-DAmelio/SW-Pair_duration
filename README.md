@@ -233,7 +233,7 @@ Group_Size - Group size - number of birds contributing to raising that specific 
 
 DATA-SPECIFIC INFORMATION FOR: Cross-sectional_dataset.csv
   
-1. Number of variables: 61
+1. Number of variables: 40
 
 2. Number of cases/rows: 749 rows (including headers)
 
