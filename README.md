@@ -50,8 +50,8 @@ SHARING/ACCESS INFORMATION
 DATA & FILE OVERVIEW
 
 1. File List: 
-longitudinal_dataset.csv
-cross-sectional_dataset.csv
+Longitudinal_dataset.csv
+Cross-sectional_dataset.csv
 
 2. Relationship between files, if important: all IDs present in the cross-sectional dataset are present in the longitudinal, the structure differs (see methods)
 
@@ -65,11 +65,11 @@ METHODOLOGICAL INFORMATION
 <describe how the submitted data were generated from the raw or collected data>
 The data presented here are similar to the raw collected data, they are only simplified and summarized
 
-DATA-SPECIFIC INFORMATION FOR: longitudinal_dataset.csv
+DATA-SPECIFIC INFORMATION FOR: Longitudinal_dataset.csv
   
-1. Number of variables: 68
+1. Number of variables: 67
 
-2. Number of cases/rows: 15660 rows
+2. Number of cases/rows: 15660 rows (including headers)
 
 3. Variable List: 
 	
@@ -217,6 +217,44 @@ Group_Size - Group size - number of birds contributing to raising that specific 
 	
 	
 	
+4. Missing data codes: NA
+	
+	
+
+5. Specialized formats or other abbreviations used:
+
+
+
+
+
+
+
+
+
+DATA-SPECIFIC INFORMATION FOR: Cross-sectional_dataset.csv
+  
+1. Number of variables: 61
+
+2. Number of cases/rows: 749 rows (including headers)
+
+3. Variable List: 
+	
+Note that a specific selection of the variables for each analysis is made at the beginning of each script (see scripts "data handling" section), so the length and structure of each analysis differs accordingly.
+
+Variables description is the same as Longitudinal_dataset, but instead of males and females there is Focal and Mate
+
+Focal--> the individual of a given breeding experience
+
+Mate--> the mate of the focal for that specific breeding attempt.
+
+Differing from Longitudinal_dataset is the column "ring"
+
+ring - ID of the focal bird
+
+In addition to the Longitudinal_dataset is the column "sex"
+
+sex - sex of the focal bird ("1" is males, "2" is females)
+
 4. Missing data codes: NA
 	
 	
